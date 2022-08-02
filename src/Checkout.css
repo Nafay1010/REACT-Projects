@@ -1,0 +1,64 @@
+#header {  /*width of open nav */
+    position: absolute;
+    width: 280px; 
+}
+
+.openmenu{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+#header .pro-sidebar {
+    height: 200vh;
+}
+
+#header .closemenu {
+    /* color: rgb(38, 197, 17); */
+    position: absolute;
+    /* display: none; */
+    right: 0;
+    z-index: 9999;
+    line-height: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 22px;
+    top: 55px;
+    cursor: pointer;
+    padding: 0px 28px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+#header .pro-sidebar {
+    width: 100%;
+    min-width: 100%;
+}
+
+/* width of close nav */
+#header .pro-sidebar.collapsed {
+    width: 100px;
+    min-width: 150px;
+    /* right: -100px; */
+}
+
+.pro-sidebar.collapsed .content{
+    display: none;
+}
+
+#header .pro-sidebar-inner {
+    /* background-color: rgb(241, 241, 241); */
+background: rgb(246, 246, 246);   
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout {
+    overflow-y: hidden;
+}
+
+@media only screen and (max-width: 720px) {
+    html {
+        overflow: hidden;
+    }
+}

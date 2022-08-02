@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "title": "iPhone X",
+      "price": 899,
+      "id": 1
+    },
+    {
+      "title": "iPhone 9",
+      "price": 549,
+      "id": 2
+    },
+    {
+      "title": "MacBook Pro",
+      "price": 1749,
+      "id": 3
+    }
+  ]
+}
