@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    background: grey;
+}
+.layout{
+    display: inline-block;
+}
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
